@@ -1,0 +1,17 @@
+<style>
+    h1{
+        text-align: center;
+        color: red;
+    }
+</style>
+<div>
+    <h1>WELCOME TO REGISTRATION PORTAL</h1>
+    <center><a href="login">LOGIN</a></center><br><br>
+    <center><a href="register">REGISTER</a></center><br><br>
+    <center><a href="logout">LOGOUT</a></center><br><br>
+    {% if user.is_authenticated%}
+    <center><h2>Welcome {{user.username}}</h2></center>
+    {% endif %}
+</div>
+<div>
+</div>
