@@ -95,10 +95,8 @@
   ```
   it runs on the local server
   
-## Deployment
-  Check it out the project at
-  ```
+  Check it out this Project at
+  
   registeryou.herokuapp.com
-  ```
  
 
