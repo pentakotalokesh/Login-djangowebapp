@@ -3,7 +3,7 @@
 <ol>
   <li>Introduction</li> 
   <li>Installation</li>
-  <li>Django Project<li>
+  <li>Django Project</li>
   <li>Django app</li>
   <li>Deployment</li>
 
@@ -75,8 +75,26 @@
   
   ```
   $ python manage.py startapp app_name
+  ```
+  
+  After starting the app it creates another folder with appname that folder consists of below files
   
   ```
+  migrations
+  _init_.py
+  admin.py
+  apps.py
+  models.py
+  tests.py
+  views.py
+  ```
+  Check the app is working or not
+  
+  ```
+  python manage.py runserver
+  ```
+  it runs on the local server
+  
   
  
 
