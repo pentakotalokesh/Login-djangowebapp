@@ -1,4 +1,4 @@
-# Django app for Beginners
+# Django for Beginners
 
 <ol>
   <li>Introduction</li> 
@@ -16,39 +16,67 @@
 
 ## Installation
 
-<ul>
-  <li>Python 3.7</li>
-  <li>django package </li>
-  <li>Virtual Environment </li>
- </ul>
- 
- ### sources
- 
- Python-3.7 https://www.python.org/downloads/
- 
- After Installation of python 
- Django in Windows
- 
- Execute commands in commandprompt(cmd.exe)
- 
- ```
- $ pip install django
- $ pip install virtualenvwrapper -win
- ```
- we need to create virtual environment
- 
- ```
- $ mkvirtualenv (userdefined_name)
- ```
-Again Execute command in virtual environment
+  <ul>
+    <li>Python 3.7</li>
+    <li>django package </li>
+    <li>Virtual Environment </li>
+   </ul>
 
-```
- $ pip install django
- ```
-Create a directory for your Project
-change to the directory
-```
-cd dir_name
-```
+   Sources:
 
+   Python-3.7 https://www.python.org/downloads/
+
+   After Installation of python 
+   Django in Windows
+
+   Execute commands in commandprompt(cmd.exe)
+
+   ```
+   $ pip install django
+   $ pip install virtualenvwrapper -win
+   ```
+   we need to create virtual environment
+
+   ```
+   $ mkvirtualenv (userdefined_name)
+   ```
+  Again Execute command in virtual environment
+
+  ```
+   $ pip install django
+   ```
+  Create a directory for your Project
+  change to the directory
+  ```
+  cd dir_name
+  ```
+## django project
+  
+  To start the django project we need to execute the following command
+  
+  ```
+  $ django-admin startproject project_name
+  ```
+  it automatically creates project folder on root-director with below files
+  
+  ```
+  _init_.py
+  asgi.py
+  settings.py
+  urls.py
+  wsgi.py
+  ```
+  This Files helps to Manipulate the whole databases,settings,urls of the Project
+  
+## django app
+  
+  django app is a subset of project we can have number of apps to the single project
+  To create Django app we need to execute the Following command on Virtual Environment
+  
+  ```
+  $ python manage.py startapp app_name
+  
+  ```
+  
+ 
 
