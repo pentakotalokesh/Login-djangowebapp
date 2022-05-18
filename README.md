@@ -13,8 +13,7 @@
   The Latest Version of the Django webframework is 4.0 
   Django has a Large community
   </p>
-******** Header
-### Installation
+# Installation
 
 <ul>
   <li>Python 3.7</li>
