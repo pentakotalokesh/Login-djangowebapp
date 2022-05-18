@@ -1,10 +1,11 @@
 # Django app for Beginners
 
-1.Introduction
-2.Installation
-3.Django Project
-4.Django app
-5.Deployment
+<ol>
+  <li>Introduction</li> 
+  <li>Installation</li>
+  <li>Django Project<li>
+  <li>Django app</li>
+  <li>Deployment</li>
 
 ## Introduction
 
