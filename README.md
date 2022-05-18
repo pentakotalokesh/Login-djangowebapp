@@ -1,4 +1,4 @@
-#Django app for Beginners
+# Django app for Beginners
 
 1.Introduction
 2.Installation
@@ -6,7 +6,7 @@
 4.Django app
 5.Deployment
 
-#Introduction
+## Introduction
 
 <p>Django is a python webframework used to create a webapps.
   It consists of predefined modules for Backend
