@@ -98,6 +98,6 @@
 # Deployed
   Check it out this Project at
   
-  [link]registeryou.herokuapp.com
+  https://registeryou.herokuapp.com/
  
 
